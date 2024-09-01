@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lemon.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="p-fv">
+    <h1 class="p-fv__copy">🍋🍋シーシーレモン🍋🍋</h1>
+   
+    <p>
+      <img class="pic" id="mypics" onclick="" src="img/think.jpg" alt="">
+      <img class="pic" id="mypics" onclick="" src="img/vs.jpg" alt="">
+      <img class="pic" id="enemypics" onclick="" src="img/think.jpg" alt="">
+    </p>
+    <div class="parentContainer">
+      <div class="myLemon">
+        <P>自分のPP</P>
+        <P id = myPowerPoints > </P>
+      </div>
+      <div class="battleResultClass">
+        <p id ="battleResult" >バトル結果：</p>
+      </div>
+
+      <div class="enemyLemon">
+        <P>相手のPP</P>
+        <P id = enemeyPowerPoints ></P>
+      </div> 
+    </div>
+    
+    <!-- <p class="time"><span id="sec"></span></p> -->
+    <p id="countdown">選択残り時間:__秒</p>
+    
+    <p>コマンドを選んで(*´ω｀)</p>
+    <div class="command">
+    <button class="myAction" id="charge" value="1" disabled = "true">ためる</button>  
+    <button class="myAction" id="defense" value="0" disabled = "true">守る</button>  
+    <button class="myAction" id="attack" value="1" disabled = "true">攻撃</button>  
+    <button class="myAction" id="superAttack" value="3" disabled = "true">スーパーパンチ</button>  
+    </div>
+    <div class="battleStart">
+      <button class="myAction" id="battle" value="4">開始</button>
+    </div>
+    <p>
+      <a href="http://abehiroshi.la.coocan.jp/" target="_blank" rel=“noopener” id="abehp">遊べなくなったらここクリック🧔</a>
+    </p>
+
+
+  </div>
+
+  </p>
+  
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
